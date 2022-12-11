@@ -1,0 +1,14 @@
+.christmas-tree {
+    border: 3px solid green;
+    height: 60%;
+    width: 20%;
+    position: relative;
+}
+
+.gift {
+    position: absolute;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}

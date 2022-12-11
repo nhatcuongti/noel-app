@@ -1,0 +1,7 @@
+.message-box {
+    border: 1px solid black;
+}
+
+.custom-paragraph > p {
+    text-align: left;
+}
