@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/noel-app/static/css/main.9c2e8cbb.css",
+    "main.js": "/noel-app/static/js/main.bdf78b22.js",
+    "static/js/787.cf22b4b8.chunk.js": "/noel-app/static/js/787.cf22b4b8.chunk.js",
+    "static/media/ChristmasMagic-OVJGe.ttf": "/noel-app/static/media/ChristmasMagic-OVJGe.d76df30d1da6cf29b129.ttf",
+    "index.html": "/noel-app/index.html",
+    "main.9c2e8cbb.css.map": "/noel-app/static/css/main.9c2e8cbb.css.map",
+    "main.bdf78b22.js.map": "/noel-app/static/js/main.bdf78b22.js.map",
+    "787.cf22b4b8.chunk.js.map": "/noel-app/static/js/787.cf22b4b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c2e8cbb.css",
+    "static/js/main.bdf78b22.js"
+  ]
+}
