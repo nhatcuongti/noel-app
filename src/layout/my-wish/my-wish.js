@@ -27,7 +27,7 @@ const MyWish = () => {
                     {wishShow}
                 </p>
             </div>
-            <Image src='/santa-claus-png-0.png'/>
+            <Image src={`${process.env.PUBLIC_URL}/santa-claus-png-0.png`}/>
         </>
     );
 };

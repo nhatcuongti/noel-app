@@ -9,11 +9,11 @@ const Home = () => {
     return (
         <Container fluid className='h-100 p-0'>
             <div className='d-flex justify-content-center align-items-center h-100'
-                 style={isMessageShow ? {backgroundImage : 'url(/background.webp)', backgroundSize : 'cover', } : {}}>
+                 style={isMessageShow ? {backgroundImage : `url(${process.env.PUBLIC_URL}/background.webp)`, backgroundSize : 'cover', } : {}}>
                 {
                     !isMessageShow
                         ?
-                    <CardImg src={'/envelope-with-love.png'} className='envelope' onClick={() => setIsMessageShow(true)}/>
+                    <CardImg src={process.env.PUBLIC_URL + '/envelope-with-love.png'} className='envelope' onClick={() => setIsMessageShow(true)}/>
                         :
                     <div className='container-letter'>
                             <div className='custom-paragraph'>
