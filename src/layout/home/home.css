@@ -30,6 +30,7 @@
 .envelope {
     width: 40% !important;
     height: 40% !important;
+    margin-bottom : 170px !important;
     cursor: pointer;
     animation-name : vibrate;
     animation-duration: 1.8s;

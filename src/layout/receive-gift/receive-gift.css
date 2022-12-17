@@ -20,11 +20,11 @@
 
 .gift {
     position: absolute;
-    width: 70px;
-    height: 70px;
+    width: 75px;
+    height: 75px;
     cursor: pointer;
     animation-name : vibrate;
-    animation-duration: 1.8s;
+    animation-duration: 1.2s;
     animation-iteration-count: infinite;
 }
 
@@ -38,4 +38,37 @@
     position: absolute;
     width: 200px;
     height: 100px;
+}
+
+.modal-custom-image {
+    padding: 0 !important;
+}
+
+.custom-modal modal-content {
+    width: 450px !important;
+    height: 450px !important;
+}
+
+.modal-40w {
+    width : 40% !important;
+}
+
+@keyframes move-to-bottom {
+    0% {top : 20px}
+    10% {top : 60px}
+    20% {top : 100px}
+    30% {top : 140px}
+    40% {top : 180px}
+    50% {top : 220px}
+    60% {top : 260px}
+    70% {top : 300px}
+    80% {top : 340px}
+    90% {top : 380px}
+    100% {top : 400px}
+}
+
+.snow {
+    position: absolute;
+    animation-name: move-to-bottom;
+    animation-iteration-count: infinite;
 }

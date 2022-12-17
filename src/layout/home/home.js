@@ -8,8 +8,9 @@ const Home = () => {
     const [isMessageShow, setIsMessageShow] = useState(false);
     return (
         <Container fluid className='h-100 p-0'>
-            <div className='d-flex justify-content-center align-items-center h-100'
-                 style={isMessageShow ? {backgroundImage : `url(${process.env.PUBLIC_URL}/background.webp)`, backgroundSize : 'cover', } : {}}>
+            <div className='d-flex  justify-content-center align-items-center h-100'
+                 style={isMessageShow ? {backgroundImage : `url(${process.env.PUBLIC_URL}/background.webp)`, backgroundSize : 'cover', } :
+                     {backgroundImage : `url(${process.env.PUBLIC_URL}/background-page1.png)`, backgroundSize : 'cover', backgroundPosition : 'bottom', backgroundRepeat : 'no-repeat'}}>
                 {
                     !isMessageShow
                         ?
