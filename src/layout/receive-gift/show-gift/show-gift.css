@@ -2,13 +2,22 @@
     width : 100px !important;
     height: 100px !important;
     border: 1px solid #555;
-    opacity: 0.3;
+    opacity: 1;
     transition: opacity 1s;
     cursor: pointer;
 }
 
 .gift_show-gift:hover {
     opacity: 1;
+}
+
+.money-custom {
+    background: red;
+    color: yellow;
+    width: 30%;
+    font-size: 25px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 @keyframes show-up {

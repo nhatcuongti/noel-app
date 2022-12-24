@@ -19,3 +19,10 @@
     animation-duration: 1.2s;
     animation-iteration-count: infinite;
 }
+
+
+.custom-paragraph-my-wish {
+    font-family: 'my-font' !important;
+    font-size: 19px !important;
+    color: black;
+}

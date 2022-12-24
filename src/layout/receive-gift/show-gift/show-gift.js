@@ -38,7 +38,8 @@ const ShowGift = (props) => {
                         </div>
                     </Col>
                     <Col xs={8}>
-                        <CardImg className='gift_receive_show-gift' src={process.env.PUBLIC_URL + chosenGift?.img_url}/>
+                        <CardImg className='gift_receive_show-gift' src={process.env.PUBLIC_URL + chosenGift?.img_url}
+                                 width={450} height={450}/>
                     </Col>
                     <Col>
                         <div className='h-100 d-flex flex-column justify-content-between'>
